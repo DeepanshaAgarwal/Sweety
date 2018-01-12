@@ -1,15 +1,14 @@
 #include<stdio.h>
 void main()
 {
-	int n;
-	printf("enter number");
-	scanf("%d",&n);
-	if(n%2==0)
+	int n, m,i;
+	printf("enter two numbers");
+	scanf("%d%d",&n,&m);
+	for(i=n+1;i<m;i++)
 	{
-		printf("Even");
-	}
-	else
+	if(i%2==0)
 	{
-		printf("Odd");
+		printf("%d\t",i);	
+	}	
 	}
 }

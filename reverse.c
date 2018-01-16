@@ -1,11 +1,16 @@
-#include  <stdio.h>
-#include <string.h>
-int main(void)
-{char *str="ForgetCode";
-int i;
- printf("Reverse the String:");
- for( i=(strlen(str)-1);i>=0;i--)
- { printf("%c",str[i]);
- } return 0;
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+	char s[10];
+	int i,str;
+	printf("enter string");
+	scanf("%s",s);	
+	
+	str=strlen(s);
+	for(i=(str-1);i>=0;i--)
+	{
+	printf("%c",s[i]);	
+	}
 }
 
